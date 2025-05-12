@@ -449,20 +449,20 @@ var bottomRightContainerDiv = document.getElementById('bottom-right-container')
 
 //title
 
-var Title = new ol.control.Control({
-    element: (() => {
-        var titleElement = document.createElement('div');
-        titleElement.className = 'top-left-title ol-control';
-        titleElement.innerHTML = `
-            <h1 class="title-large">CENSO AGROPECUARIO</h1>
-            <p class="title-medium">PRUEBA PILOTO - MONITOREO BOLETA</p>
-            <p class="title-small">CARTOGRAFÍA</p>
-        `;
-        return titleElement;
-    })(),
-    target: 'top-left-container'
-});
-map.addControl(Title);
+//var Title = new ol.control.Control({
+//    element: (() => {
+//        var titleElement = document.createElement('div');
+//        titleElement.className = 'top-left-title ol-control';
+//        titleElement.innerHTML = `
+//            <h1 class="title-large">CENSO AGROPECUARIO</h1>
+//            <p class="title-medium">PRUEBA PILOTO - MONITOREO BOLETA</p>
+//            <p class="title-small">CARTOGRAFÍA</p>
+//        `;
+//        return titleElement;
+//    })(),
+//    target: 'top-left-container'
+//});
+//map.addControl(Title);
 
     
 //abstract
