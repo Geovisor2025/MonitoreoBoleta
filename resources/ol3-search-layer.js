@@ -94,7 +94,7 @@ var SearchLayer = (function (Control) {
       width: 2
     }),
     fill: new ol.style.Fill({
-      color: 'rgba(0, 153, 255, 0.1)' // relleno azul con 10% de opacidad
+      color: 'rgba(0, 153, 255, 0.02)' // relleno azul con 2% de opacidad
     })
   })
 });
