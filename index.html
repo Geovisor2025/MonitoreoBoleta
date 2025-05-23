@@ -52,6 +52,25 @@
     display: block;
 }
 
+ .bottom-left-logos {
+        position: absolute;
+        bottom: 60px;
+        right: 10px;
+        z-index: 9999;
+        background-color: rgba(255, 255, 255, 0.01);
+        padding: 5px;
+        border-radius: 2px;
+        display: flex;
+        gap: 10px; /* espacio entre imágenes */
+        align-items: center;
+    }
+
+    .bottom-left-logos img {
+        height: 300px;
+        width: auto;
+    }
+
+            
         </style>
 
         <style>
@@ -76,6 +95,12 @@
                 <div id="popup-content"></div>
             </div>
         </div>
+
+<div class="bottom-left-logos">
+    <img src="images/2.png" alt="Logo 1" />
+    
+</div> 
+        
         <script src="resources/qgis2web_expressions.js"></script>
         <script src="./resources/functions.js"></script>
         <script src="./resources/ol.js"></script>
